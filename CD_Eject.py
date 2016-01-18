@@ -4,6 +4,7 @@
  *
  * log
  * -----------
+ * version 1.3 by ninjailbreak, 18.1.16
  * version 1.2 by ninjailbreak, 16.1.16
  * version 1.1 by ninjailbreak, 16.1.16
  * version 1.0 by ninjailbreak, 15.1.16
@@ -33,5 +34,6 @@ def menu():
         print "Close Now!"
         windll.WINMM.mciSendStringW(u"set cdaudio door closed", None, 0 , None)
     sleep(0.2)
+system("color A")
 while True:
     menu()
